@@ -51,6 +51,9 @@ Public Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
 'Cambio la forma de generar el pdf unido. Uso NAPS. Funcion GeneraPDf2
 'Añado funcion Pause
 
+'24-01-2023
+' Copia en github
+
 Dim ns As Outlook.NameSpace
 Dim olFolder As Outlook.MAPIFolder
 Dim Items As Outlook.Items
